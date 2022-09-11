@@ -1,0 +1,25 @@
+body {
+    font-family: 'Noto Sans Thai';font-size: 22px;
+}f
+#customers {
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #a51c1c;}
+
+  #customers tr:hover {background-color: rgb(44, 38, 38);}
+  #customers tr:hover {background-color: #730bea;}
+
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3278ea;
+    color: rgb(255, 255, 255);
+  }
